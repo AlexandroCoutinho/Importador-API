@@ -23,3 +23,6 @@ class Enemy:
     def present(self):
         print(
             f'{self.__type_of_enemy} has {self.health_points} health points and can do attack of {self.attack_damage}.')
+
+    def special_attack(self):
+        print(f'{self.__type_of_enemy} has no special attack.')
